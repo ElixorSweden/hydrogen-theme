@@ -46,46 +46,13 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured products",
-        "collection": "all",
-        "products_to_show": 8
-      }
-    },
-    "collection_list": {
-      "type": "collection-list",
-      "blocks": {
-        "featured-collection-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured-collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured-collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured-collection-0",
-        "featured-collection-1",
-        "featured-collection-2"
-      ],
-      "settings": {
-        "title": "Collections",
-        "columns_desktop": 1
+        "collection": "frontpage",
+        "products_to_show": 15
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection",
-    "collection_list"
+    "featured_collection"
   ]
 }
